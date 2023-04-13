@@ -1,0 +1,47 @@
+
+
+.box {
+    margin: 50px auto;
+    border: 6px solid black;
+    width: 1100px;
+    text-align: center;
+    padding:10px 0 30px;
+}
+
+.question {
+    display: inline-block;
+    margin: 0;
+}
+
+.num {
+    width: 250px;
+}
+
+.item {
+    width: 100px;
+    margin: 5px auto 0;
+    text-align: left;
+}
+
+.but-item {
+    margin-top: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+#square {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(70, 43, 180, 0.473);
+}
+#circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(204, 91, 89, 0.77);
+    border-radius: 100%;
+}

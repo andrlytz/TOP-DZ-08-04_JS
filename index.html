@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="box" id="sale">
+            <h3>Посчитаю скидку по сумме вашей покупки</h3>
+            <input class="num" type="number" id="inpt1" placeholder="Введите сумму покупки">
+            <button id="but1">Посчитать</button>
+            <p id="out1">Результат:</p>
+        </div>
+        <div class="box" id="long">
+            <h3>Посчитаю впишется ли окружность в квадрат</h3>
+            <input class="num" id="inpt2-1" type="number" placeholder="Введите длину окружности">
+            <input class="num" id="inpt2-2" type="number" placeholder="Введите значение периметра квадрата">
+            <button id="but2">Посчитать</button>
+            <p id="out2">Результат:</p>
+            <div class="container">
+                <div id="square"></div>
+                <div id="circle"></div>
+            </div>
+        </div>
+        <div class="box" id="quest">
+            <h3>Рубрика: вопросики <br> За првильный ответ 2 балла</h3>
+            <h4 id="out3">Счетчик:</h4>
+            <div>
+                <h4>Форма планеты Земля?</h4>
+                <div class="item">
+                    <label for="contactChoice1">
+                        <input class="question one" type="radio" name="group1" value="1" id="contactChoice1">
+                        Сфера
+                    </label>
+                </div>
+                <div class="item">
+                    <label for="contactChoice2">
+                        <input class="question one" type="radio" name="group1" value="2" id="contactChoice2">
+                        Шар
+                    </label>
+                </div>
+                <div class="item" id="win">
+                    <label for="contactChoice3">
+                        <input class="question one" type="radio" name="group1" value="3" id="contactChoice3">
+                        Эллипсоид
+                    </label>
+                </div>
+                <div class="item">
+                    <label for="contactChoice4">
+                        <input class="question one" type="radio" name="group1" value="4" id="contactChoice4">
+                        Кубоид
+                    </label>
+                </div>
+                <button class="but-item" id="but3-1">Проверить</button>
+            </div>
+            <div>
+                <h4>Первый зимний месяц в новом году?</h4>
+                <div class="item">
+                    <input class="question" name="group2" id="contactChoice5" type="radio" value="1">
+                    Декабрь
+                </div>
+                <div class="item" id="win2">
+                    <input class="question" name="group2" id="contactChoice6" type="radio" value="2">
+                    Январь
+                </div>
+                <div class="item">
+                    <input class="question"  name="group2" id="contactChoice7" type="radio" value="3">
+                    Февраль
+                </div>
+                <button class="but-item" id="but3-2">Проверить</button>
+            </div>
+            <div>
+                <h4>Какая страна сама себя называет предметом одежды?</h4>
+                <div class="item" >
+                    <input class="question" name="group3" id="contactChoice8" type="radio"  value="1">
+                    <p class="question">Панама</p>
+                </div>
+                <div class="item" id="win3">
+                    <input class="question" name="group3" id="contactChoice9" type="radio"  value="2">
+                    <p class="question">Ямайка</p>
+                </div>
+                <div class="item">
+                    <input class="question" name="group3" id="contactChoice10" type="radio" value="3">
+                    <p class="question">Египет</p>
+                </div>
+                <div class="item">
+                    <input class="question" name="group3" id="contactChoice11" type="radio"  value="4">
+                    <p class="question">Аргентина</p>
+                </div>
+                <button class="but-item" id="but3-3">Проверить</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
